@@ -1,0 +1,58 @@
+<html>
+<head>
+  <title>Cadastro de Categorias</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Cadastro de Categorias</h1>
+  <form id="categoryForm">
+    <label for="icon">Ícone:</label>
+    <input type="text" id="icon" name="icon" placeholder="Ícone" required><br>
+
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" placeholder="Nome" required><br>
+
+    <button type="submit">Salvar</button>
+  </form>
+
+  <script src="category.js"></script>
+</body>
+</html>
